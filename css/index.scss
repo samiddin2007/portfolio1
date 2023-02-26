@@ -1,0 +1,486 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+} 
+
+
+.container{
+  margin: 0 auto;
+  margin-top: 32px;
+  padding-bottom: 104px;
+  /* transform: rotate(-0.5deg); */
+}
+.header{
+  background: #fff;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.home{
+  display: flex;
+  justify-content: space-between;
+}
+
+.home_p{
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+  text-decoration: none;
+
+}
+
+.head_menu{
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  text-decoration: none;
+}
+.head_menu:hover{
+  color: #292424;
+}
+.home2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ux{
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.language{
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+}
+.language:hover{
+  color: #631111;
+  font-weight: 600;
+}
+
+.line{
+  border: 1px solid #828282;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.fon_head{
+  background-image: url(../img/BSPP2266.png);
+  width: 100%;
+  text-align: center;
+}
+/* --------------------------------- */
+
+
+.nav1{
+  background: #F6F6F6;
+  margin: 0 auto;
+}
+
+.nav1_start{
+text-align: center;
+padding-top: 120px;
+padding-bottom: 107px;
+}
+
+.nav1_start>p{
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.nav1_start>h1{
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* --------------------------- */
+
+.nav2{
+  background-color: #fff;
+  border: solid;
+}
+
+.nav2_start{
+  text-align: center;
+  max-width: 65%;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.nav2_start>h1{
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+.nav2_start>p{
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+
+.programm{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.programm_h1{
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #828282;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-decoration: none;
+}
+.programm_h1:hover{
+  color: #000000;
+}
+
+.grave_img3:hover,.grave_img2:hover{
+  width: 95px;
+}
+
+
+/* ---------------------------------- */
+
+.nav3{
+  background: #F6F6F6;
+}
+
+.nav3_start{
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav3_start>a{
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 99px;
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-decoration:none;
+  color: #070707;
+}
+
+.nav3_start>h1{
+  text-align: center;
+  padding-top: 112px;
+  padding-bottom: 47px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 54px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+/* ============================== */
+
+.nav4{
+  background-color: #fff;
+}
+
+.nav4_start{
+    text-align: center;
+}
+
+.nav4_start>h1{
+  padding-top: 114px;
+  padding-bottom: 20px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  color: #070707;
+}
+
+.nav4_start>p{
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.icon_left{
+  padding-left: 61px;
+}
+button{
+  background-color: #111;
+  margin-top: 29px;
+  margin-bottom: 86px;
+  border-radius: 35px;
+  cursor: pointer;
+
+}
+
+button:hover{
+  background-color: rgb(38, 0, 255);
+  margin-top: 29px;
+  margin-bottom: 86px;
+  border-radius: 1px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+
+button>p{
+  color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px; 
+}
+
+button>p:hover{
+  color: rgb(227, 253, 255);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  transition: 0.7s;
+}
+
+// ======================================================
+@media (max-width: 500px) {
+  .container{
+      margin: 0 auto;
+      margin-top: 32px;
+      padding-bottom: 20px;
+    }
+    .header{
+      background: rgb(255, 255, 255);
+      max-width: 75%;
+      margin: 0 auto;
+    }
+    .home2{
+      display: flex;
+      margin-right: 115px;
+      margin-bottom: 16px;
+    }
+    .home2>h1{
+      margin-right: 80px;
+    }
+
+    .programm {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      text-align: center;
+      margin-top: 30px;
+      .programm_h1{
+        margin-top: -10px;
+        font-size: 12px;
+      }
+      // img{
+      //   width: 50px;
+      }
+      .grave_img{
+        margin-bottom: 30px;
+        margin-top: -15px;
+    }
+
+    .home{
+      opacity: 0;
+    }
+
+  .nav2_start{
+      text-align: center;
+      max-width: 30%;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+
+    .head_menu {
+      font-family: 'Gilroy-Bold';
+      font-size: 0.1px;
+      line-height: 22px;
+      color: #828282;
+      text-overflow: ellipsis;
+      overflow: hidden;
+  }
+
+  .home_p{
+      font-size: 0.1px;
+      line-height: 22px;
+      color: #070707;
+    
+    }
+
+    .home2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -30px;
+
+    }
+
+
+    .fon_head{
+      width: 100%;
+      margin-top: -30px;
+    }
+  
+    .language{
+      font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 0.1px;
+    line-height: 20px;
+    
+    color: #828282;
+    
+    transform: rotate(-90deg);
+    }
+
+    .line{
+      border: 0.1px  #828282;
+    }
+
+  .nav1_start {
+      text-align: center;
+      padding-top: 45px;
+      padding-bottom: 50px;
+  }
+
+  .icon_left {
+      padding-left: 20px;
+  }
+
+  .nav3_start>p {
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 45px;
+      font-family: 'Gilroy-Medium', sans-serif;
+      font-size: 10px;
+      line-height: 22px;
+      text-align: center;
+      text-decoration-line: underline;
+      color: #070707;
+  }
+
+  .nav3_start>h1 {
+      text-align: center;
+      padding-top: 11px;
+      padding-bottom: 9px;
+      font-family: 'Gilroy-Bold', sans-serif;
+      font-size: 25px;
+      line-height: 42px;
+      text-align: center;
+      color: #070707;
+  }
+
+  .grave_img3{
+      height: 90px;
+  }
+
+
+  .programm_h1 {
+      font-family: 'Gilroy-Bold', sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      color: #828282;
+      padding-bottom: 20px;
+  }
+
+  .nav1_start>h1 {
+      font-family: 'Gilroy-Bold', sans-serif;
+      font-size: 23px;
+      line-height: 42px;
+      text-align: center;
+      color: #070707;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+  }
+
+  .nav1_start>p {
+      font-family: 'Gilroy-Medium', sans-serif;
+      font-size: 12px;
+      line-height: 22px;
+      text-align: center;
+      color: #070707;
+  }
+
+  .nav2_start>p {
+      font-family: 'Gilroy-Medium', sans-serif;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: #070707;
+  }
+
+  .nav2_start>h1 {
+      font-family: 'Gilroy-Bold', sans-serif;
+      font-size: 27px;
+      line-height: 42px;
+      text-align: center;
+      color: #070707;
+  }
+
+  button{
+      background-color: #111;
+      margin-top: 29px;
+      margin-bottom: 86px;
+      border-radius: 35px;
+      
+    }
+    
+    button>p{
+      color: #fff;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 30px;
+      padding-right: 30px;
+      
+    }
+
+    .nav3_start{
+      .nav3_start_img{
+        margin-top: -90px;
+      }
+      a{
+        margin-top: -20px;
+        margin-bottom: 20px;
+        font-size: 12px;
+      }
+    
+      .icon_left {
+        padding-left: 10px;
+      } 
+    
+    }
+    .nav4_start{
+      margin-top: -170px;
+    }
+}
