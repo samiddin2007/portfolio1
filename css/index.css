@@ -35,7 +35,7 @@
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 18px;
   line-height: 22px;
-  color: #828282;
+  color: #b80000;
   text-decoration: none;
 }
 
@@ -164,6 +164,14 @@
   color: #000000;
 }
 
+.grave_img3 {
+  width: 90px;
+}
+
+.grave_img2 {
+  width: 90px;
+}
+
 .grave_img3:hover, .grave_img2:hover {
   width: 95px;
 }
@@ -232,6 +240,12 @@
 
 .icon_left {
   padding-left: 61px;
+  width: 40px;
+}
+
+.icon > a > img {
+  width: 40px;
+  border-radius: 100px;
 }
 
 button {
@@ -269,6 +283,10 @@ button > p:hover {
 }
 
 @media (max-width: 500px) {
+  .icon > a > img {
+    width: 40px;
+    border-radius: 100px;
+  }
   .container {
     margin: 0 auto;
     margin-top: 32px;
