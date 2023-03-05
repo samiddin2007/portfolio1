@@ -1,4 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@500;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tilt+Warp&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +14,7 @@
 }
 
 .header {
-  background: #fff;
+  background-image: url(https://avatars.mds.yandex.net/i?id=7dc20cbf9f2888220f63bb5b96a7ae5a1daee20b-8534972-images-thumbs&n=13);
   max-width: 65%;
   margin: 0 auto;
 }
@@ -24,7 +25,7 @@
 }
 
 .home_p {
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "climate crisis", sans-serif;
   font-size: 18px;
   line-height: 22px;
   color: #070707;
@@ -32,7 +33,7 @@
 }
 
 .head_menu {
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "climate crisis", sans-serif;
   font-size: 18px;
   line-height: 22px;
   color: #b80000;
@@ -49,20 +50,31 @@
   align-items: center;
 }
 
+.home2 > h1 {
+  font-family: "tilt wrap", sans-serif;
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 900;
+  color: #b80000;
+  text-decoration: none;
+}
+
 .ux {
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Tilt wrap", sans-serif;
   font-size: 18px;
+  font-weight: 700;
   line-height: 22px;
   color: #070707;
 }
 
 .language {
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Tilt Warp", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #828282;
-  transform: rotate(-90deg);
+  transform: rotate(-20deg);
+  text-decoration: none;
 }
 
 .language:hover {
@@ -94,15 +106,16 @@
 }
 
 .nav1_start > p {
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Tilt wrap", sans-serif;
   font-size: 18px;
+  font-weight: 600;
   line-height: 22px;
   text-align: center;
-  color: #070707;
+  color: #292525;
 }
 
 .nav1_start > h1 {
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Tilt Warp", sans-serif;
   font-size: 34px;
   line-height: 42px;
   text-align: center;
@@ -127,7 +140,7 @@
 }
 
 .nav2_start > h1 {
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Tilt wrap", sans-serif;
   font-size: 34px;
   line-height: 42px;
   text-align: center;
@@ -135,7 +148,7 @@
 }
 
 .nav2_start > p {
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Tilt Warp", sans-serif;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -151,8 +164,9 @@
 }
 
 .programm_h1 {
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Tilt wrap", sans-serif;
   font-size: 14px;
+  font-weight: 600;
   text-align: center;
   color: #828282;
   padding-top: 10px;
@@ -173,14 +187,10 @@
 }
 
 .grave_img3:hover, .grave_img2:hover {
-  width: 95px;
+  width: 91px;
 }
 
 /* ---------------------------------- */
-.nav3 {
-  background: #F6F6F6;
-}
-
 .nav3_start {
   width: 65%;
   margin: 0 auto;
@@ -193,7 +203,7 @@
   text-align: center;
   padding-top: 25px;
   padding-bottom: 99px;
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Tilt Warp", sans-serif;
   font-size: 18px;
   text-align: center;
   text-decoration: none;
@@ -204,7 +214,7 @@
   text-align: center;
   padding-top: 112px;
   padding-bottom: 47px;
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Tilt wrap", sans-serif;
   font-size: 54px;
   line-height: 42px;
   text-align: center;
@@ -213,7 +223,8 @@
 
 /* ============================== */
 .nav4 {
-  background-color: #fff;
+  background-image: url();
+  background-repeat: no-repeat;
 }
 
 .nav4_start {
@@ -223,7 +234,7 @@
 .nav4_start > h1 {
   padding-top: 114px;
   padding-bottom: 20px;
-  font-family: "Gilroy-Bold", sans-serif;
+  font-family: "Tilt Warp", sans-serif;
   font-size: 34px;
   line-height: 42px;
   text-align: center;
@@ -231,11 +242,12 @@
 }
 
 .nav4_start > p {
-  font-family: "Gilroy-Medium", sans-serif;
+  font-family: "Tilt wrap", sans-serif;
   font-size: 18px;
+  font-weight: 600;
   line-height: 22px;
   text-align: center;
-  color: #070707;
+  color: #201f1f;
 }
 
 .icon_left {
@@ -330,7 +342,7 @@ button > p:hover {
     margin-top: 30px;
   }
   .head_menu {
-    font-family: "Gilroy-Bold";
+    font-family: "Tilt wrap", sans-serif;
     font-size: 0.1px;
     line-height: 22px;
     color: #828282;
@@ -353,7 +365,7 @@ button > p:hover {
     margin-top: -30px;
   }
   .language {
-    font-family: "Gilroy-Bold", sans-serif;
+    font-family: "Tilt wrap", sans-serif;
     font-size: 0.1px;
     line-height: 20px;
     color: #828282;
@@ -363,9 +375,17 @@ button > p:hover {
     border: 0.1px #828282;
   }
   .nav1_start {
-    text-align: center;
     padding-top: 45px;
-    padding-bottom: 50px;
+    width: 270px;
+    margin: 0 auto;
+  }
+  .grave_img2 {
+    width: 150px;
+    height: 150px;
+  }
+  .grave_img3 {
+    width: 150px;
+    height: 150px;
   }
   .icon_left {
     padding-left: 20px;
@@ -374,7 +394,7 @@ button > p:hover {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 45px;
-    font-family: "Gilroy-Medium", sans-serif;
+    font-family: "Tilt wrap", sans-serif;
     font-size: 10px;
     line-height: 22px;
     text-align: center;
@@ -385,17 +405,14 @@ button > p:hover {
     text-align: center;
     padding-top: 11px;
     padding-bottom: 9px;
-    font-family: "Gilroy-Bold", sans-serif;
+    font-family: "Tilt wrap", sans-serif;
     font-size: 25px;
     line-height: 42px;
     text-align: center;
     color: #070707;
   }
-  .grave_img3 {
-    height: 90px;
-  }
   .programm_h1 {
-    font-family: "Gilroy-Bold", sans-serif;
+    font-family: "Tilt Warp", sans-serif;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
@@ -403,7 +420,7 @@ button > p:hover {
     padding-bottom: 20px;
   }
   .nav1_start > h1 {
-    font-family: "Gilroy-Bold", sans-serif;
+    font-family: "Tilt wrap", sans-serif;
     font-size: 23px;
     line-height: 42px;
     text-align: center;
@@ -413,21 +430,21 @@ button > p:hover {
     flex-wrap: wrap;
   }
   .nav1_start > p {
-    font-family: "Gilroy-Medium", sans-serif;
+    font-family: "Tilt wrap", sans-serif;
     font-size: 12px;
     line-height: 22px;
     text-align: center;
     color: #070707;
   }
   .nav2_start > p {
-    font-family: "Gilroy-Medium", sans-serif;
+    font-family: "Tilt wrap", sans-serif;
     font-size: 14px;
     line-height: 22px;
     text-align: center;
     color: #070707;
   }
   .nav2_start > h1 {
-    font-family: "Gilroy-Bold", sans-serif;
+    font-family: "", sans-serif;
     font-size: 27px;
     line-height: 42px;
     text-align: center;
@@ -460,4 +477,4 @@ button > p:hover {
   .nav4_start {
     margin-top: -170px;
   }
-}
+}/*# sourceMappingURL=index.css.map */
